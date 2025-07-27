@@ -1,5 +1,5 @@
 <div align=center>
-  
+
   # InkCanvasForClass<br>.NET <!--“。网”。跟我一起读：“句号，网”[doge] --> 10 Edition
   InkCanvasForClass，但是 .NET 10
 
@@ -14,21 +14,23 @@
 
 主要工作：
 
-- 对软件进行 .NET 10 重构。
-- 尽可能的修复一些 `warning`。
-- 改用原生 WPF Fluent 界面。
+- [x] 对软件进行 .NET 10 重构。
+
+- [ ] 尽可能的修复一些 `warning`。
+
+- [ ] 改用原生 WPF Fluent 界面。
 - ~~没了~~
 
 ## 下载
 现阶段请前往 [Actions](https://github.com/ShihaoShen2025/ICC-DN10/actions) 下载。
 
-对于不使用“发行版”构建（`release.yml`）的用户，请预先安装 [.NET 10 桌面运行时](https://dotnet.microsoft.com/zh-cn/download/dotnet/10.0)。
+对于不使用“最新构建”构建（`main.yml`）的用户，请预先安装 [.NET 10 桌面运行时](https://dotnet.microsoft.com/zh-cn/download/dotnet/10.0)。
 
-注：“[最新构建（`main.yml`）](https://github.com/ShihaoShen2025/ICC-DN10/actions/workflows/main.yml)”为发行版，“[最新构建（`release.yml`）](https://github.com/ShihaoShen2025/ICC-DN10/actions/workflows/release.yml)”为自带 .NET 桌面运行时的发行版，“[调试版本（`debug.yml`）](https://github.com/ShihaoShen2025/ICC-DN10/actions/workflows/debug.yml)”为调试版本。
+注：“[最新构建（`main.yml`）](https://github.com/ShihaoShen2025/ICC-DN10/actions/workflows/main.yml)”为自带 .NET 桌面运行时的发行版，“[发行版（`release.yml`）](https://github.com/ShihaoShen2025/ICC-DN10/actions/workflows/release.yml)”为发行版，“[调试版本（`debug.yml`）](https://github.com/ShihaoShen2025/ICC-DN10/actions/workflows/debug.yml)”为调试版本。
 
 [![发行版](https://github.com/ShihaoShen2025/ICC-DN10/actions/workflows/release.yml/badge.svg)](https://github.com/ShihaoShen2025/ICC-DN10/actions/workflows/release.yml)
 [![调试版本](https://github.com/ShihaoShen2025/ICC-DN10/actions/workflows/debug.yml/badge.svg)](https://github.com/ShihaoShen2025/ICC-DN10/actions/workflows/debug.yml)
-<!--非常好Actions，使我的二进制文件旋转-->
+<!--非常好Actions，使我的发行版旋转-->
 
 ## 致谢
 
