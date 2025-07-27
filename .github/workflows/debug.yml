@@ -1,4 +1,4 @@
-name: 发行版
+name: 调试版本
 
 on:
   push:
