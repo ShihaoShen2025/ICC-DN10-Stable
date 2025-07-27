@@ -1,4 +1,4 @@
-name: 二进制构建
+name: 发行版
 
 on:
   push:
