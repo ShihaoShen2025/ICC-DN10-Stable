@@ -17,6 +17,10 @@
 - 改用原生 WPF Fluent 界面。
 - ~~没了~~
 
+## 下载
+现阶段请前往 [Actions](shttps://github.com/ShihaoShen2025/ICC-DN10/actions) 下载。
+<!--非常好Actions，使我的二进制文件旋转-->
+
 ## 致谢
 
 感谢 [IC](https://github.com/WXRIW/Ink-Canvas/)、[ICA](https://github.com/InkCanvas/Ink-Canvas-Artistry)、[ICC](https://github.com/InkCanvas/InkCanvasForClass)、[ICC-Re](https://github.com/LiuYan-xwx/InkCanvasForClass-Remastered) 的贡献者们。
