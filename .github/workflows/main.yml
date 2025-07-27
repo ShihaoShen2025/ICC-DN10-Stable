@@ -1,4 +1,4 @@
-name:最新构建
+name: 最新构建
 
 on:
   push:
