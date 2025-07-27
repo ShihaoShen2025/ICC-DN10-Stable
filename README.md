@@ -1,7 +1,12 @@
-# ICC .NET <!--“。网”。跟我一起读：“句号，网”[doge] --> 10 Edition
-InkCanvasForClass，但是 .NET 10
+<div align=center>
+  
+  # InkCanvasForClass<br>.NET <!--“。网”。跟我一起读：“句号，网”[doge] --> 10 Edition
+  InkCanvasForClass，但是 .NET 10
 
-# 介绍
+  基于`InkCanvas`控件的又<!--yòu-->双<!--shuāng-->叒<!--ruò-->叕<!--zhuó-->一次倔强
+</div>
+
+## 介绍
 
 本repo基于 [ICC-Re](https://github.com/LiuYan-xwx/InkCanvasForClass-Remastered) 重写。
 
@@ -9,9 +14,10 @@ InkCanvasForClass，但是 .NET 10
 
 - 对软件进行 .NET 10 重构。
 - 尽可能的修复一些 `warning`。
+- 改用原生 WPF Fluent 界面。
 - ~~没了~~
 
-# 致谢
+## 致谢
 
 感谢 [IC](https://github.com/WXRIW/Ink-Canvas/)、[ICA](https://github.com/InkCanvas/Ink-Canvas-Artistry)、[ICC](https://github.com/InkCanvas/InkCanvasForClass)、[ICC-Re](https://github.com/LiuYan-xwx/InkCanvasForClass-Remastered) 的贡献者们。
 
