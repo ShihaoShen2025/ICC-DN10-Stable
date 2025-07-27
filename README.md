@@ -22,6 +22,10 @@
 ## 下载
 现阶段请前往 [Actions](https://github.com/ShihaoShen2025/ICC-DN10/actions) 下载。
 
+对于不使用“发行版”构建（`release.yml`）的用户，请预先安装 [.NET 10 桌面运行时](https://dotnet.microsoft.com/zh-cn/download/dotnet/10.0)。
+
+注：“[最新构建（`main.yml`）](https://github.com/ShihaoShen2025/ICC-DN10/actions/workflows/main.yml)”为发行版，“[最新构建（`release.yml`）](https://github.com/ShihaoShen2025/ICC-DN10/actions/workflows/release.yml)”为自带 .NET 桌面运行时的发行版，“[调试版本（`debug.yml`）](https://github.com/ShihaoShen2025/ICC-DN10/actions/workflows/debug.yml)”为调试版本。
+
 [![发行版](https://github.com/ShihaoShen2025/ICC-DN10/actions/workflows/release.yml/badge.svg)](https://github.com/ShihaoShen2025/ICC-DN10/actions/workflows/release.yml)
 [![调试版本](https://github.com/ShihaoShen2025/ICC-DN10/actions/workflows/debug.yml/badge.svg)](https://github.com/ShihaoShen2025/ICC-DN10/actions/workflows/debug.yml)
 <!--非常好Actions，使我的二进制文件旋转-->
