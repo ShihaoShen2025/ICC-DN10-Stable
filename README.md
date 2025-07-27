@@ -18,7 +18,7 @@
 - ~~没了~~
 
 ## 下载
-现阶段请前往 [Actions](shttps://github.com/ShihaoShen2025/ICC-DN10/actions) 下载。
+现阶段请前往 [Actions](https://github.com/ShihaoShen2025/ICC-DN10/actions) 下载。
 <!--非常好Actions，使我的二进制文件旋转-->
 
 ## 致谢
