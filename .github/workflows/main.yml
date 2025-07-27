@@ -11,18 +11,18 @@ jobs:
     name: Build
     
     steps:
-    - name: Checkout
+    - name: 初始化
       uses: actions/checkout@v4
 
-    - name: Install .NET Core
+    - name: 安装 .NET SDK
       uses: actions/setup-dotnet@v4
       with:
         dotnet-version: 10.0.x
 
-    - name: Publish
-      run: dotnet publish -c Release -f net10.0-windows10.0.19041.0 -r win-x64 --self-contained false -o publish
+    - name: 生成二进制文件
+      run: dotnet publish -c Release -f net10.0-windows10.0.19041.0 -r win-x64 --self-contained true -o publish
 
-    - name: Upload artifact
+    - name: 上传二进制文件
       uses: actions/upload-artifact@v4
       with:
         name: ICC-DN10
