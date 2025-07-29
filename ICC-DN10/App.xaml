@@ -416,7 +416,7 @@
             <tb:TaskbarIcon
                 x:Key="TaskbarTrayIcon"
                 ContextMenu="{StaticResource SysTrayMenu}"
-                IconSource="/Resources/ICC-Re.ico"
+                IconSource="/Resources/ICC-DN10.ico"
                 ToolTipText="InkCanvasForClass-Remastered"
                 Visibility="Collapsed" />
             <ResourceDictionary.MergedDictionaries>
