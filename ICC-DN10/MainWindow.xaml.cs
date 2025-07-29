@@ -5584,7 +5584,7 @@ namespace ICC_DN10
         {
             if (!isLoaded) return;
 
-            const string shortcutName = "ICC-Re";
+            const string shortcutName = "ICC-DN10";
 
             try
             {
@@ -6814,13 +6814,13 @@ namespace ICC_DN10
 
         private void SetAutoSavedStrokesLocationToDiskDButton_Click(object sender, RoutedEventArgs e)
         {
-            AutoSavedStrokesLocation.Text = @"D:\ICC-Re";
+            AutoSavedStrokesLocation.Text = @"D:\ICC-DN10";
         }
 
         private void SetAutoSavedStrokesLocationToDocumentFolderButton_Click(object sender, RoutedEventArgs e)
         {
             AutoSavedStrokesLocation.Text =
-                Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments) + @"\ICC-Re";
+                Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments) + @"\ICC-DN10";
         }
 
         private void ToggleSwitchAutoDelSavedFiles_Toggled(object sender, RoutedEventArgs e)
@@ -7280,7 +7280,7 @@ namespace ICC_DN10
         //    try
         //    {
         //        // 检查是否启用了开机自启动
-        //        var isAutoStartEnabled = IsStartAutomaticallyEnabled("ICC-Re");
+        //        var isAutoStartEnabled = IsStartAutomaticallyEnabled("ICC-DN10");
         //        ToggleSwitchRunAtStartup.IsOn = isAutoStartEnabled;
         //    }
         //    catch (Exception ex)
@@ -7963,7 +7963,7 @@ namespace ICC_DN10
             try
             {
                 // 检查是否启用了开机自启动
-                var isAutoStartEnabled = IsStartAutomaticallyEnabled("ICC-Re");
+                var isAutoStartEnabled = IsStartAutomaticallyEnabled("ICC-DN10");
                 ToggleSwitchRunAtStartup.IsOn = isAutoStartEnabled;
             }
             catch (Exception ex)
@@ -8096,12 +8096,12 @@ namespace ICC_DN10
 
                 if (Settings.Appearance.EnableViewboxBlackBoardScaleTransform) // 画板 UI 缩放 80%
                 {
-                    ViewboxBlackboardLeftSideScaleTransform.ScaleX = 0.8;
-                    ViewboxBlackboardLeftSideScaleTransform.ScaleY = 0.8;
+                    //ViewboxBlackboardLeftSideScaleTransform.ScaleX = 0.8;
+                    //ViewboxBlackboardLeftSideScaleTransform.ScaleY = 0.8;
                     ViewboxBlackboardCenterSideScaleTransform.ScaleX = 0.8;
                     ViewboxBlackboardCenterSideScaleTransform.ScaleY = 0.8;
-                    ViewboxBlackboardRightSideScaleTransform.ScaleX = 0.8;
-                    ViewboxBlackboardRightSideScaleTransform.ScaleY = 0.8;
+                    //ViewboxBlackboardRightSideScaleTransform.ScaleX = 0.8;
+                    //ViewboxBlackboardRightSideScaleTransform.ScaleY = 0.8;
 
                     ToggleSwitchEnableViewboxBlackBoardScaleTransform.IsOn = true;
                 }

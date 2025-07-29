@@ -853,7 +853,7 @@
                                                     Width="24"
                                                     Height="24"
                                                     Margin="8,0,0,0"
-                                                    Source="/Resources/ICC-Re.ico" />
+                                                    Source="/Resources/ICC-DN10.ico" />
                                             </ikw:SimpleStackPanel>
                                             <TextBlock
                                                 Margin="12,0,0,0"
@@ -2945,7 +2945,7 @@
                                             <TextBox
                                                 x:Name="AutoSavedStrokesLocation"
                                                 Width="320"
-                                                Text="D:\ICC-Re"
+                                                Text="D:\ICC-DN10"
                                                 TextChanged="AutoSavedStrokesLocationTextBox_TextChanged"
                                                 TextWrapping="Wrap" />
                                             <Button
@@ -2956,7 +2956,7 @@
                                         <ikw:SimpleStackPanel Orientation="Horizontal" Spacing="12">
                                             <Button
                                                 Name="SetAutoSavedStrokesLocationToDiskDButton"
-                                                Content="设置保存到 D:\ICC-Re"
+                                                Content="设置保存到 D:\ICC-DN10"
                                                 Click="SetAutoSavedStrokesLocationToDiskDButton_Click" />
                                             <Button
                                                 Name="SetAutoSavedStrokesLocationToDocumentFolderButton"
@@ -7400,7 +7400,7 @@
                             <Image
                                 Name="FloatingbarHeadIconImg"
                                 Margin="0"
-                                Source="/Resources/Icons-png/ICC-Re.png" />
+                                Source="/Resources/Icons-png/ICC-DN10.png" />
                         </ikw:SimpleStackPanel>
                     </Border>
                     <Border
