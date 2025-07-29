@@ -51,7 +51,7 @@
 >
 > 此列表通过 [All Contributors](https://allcontributors.org/)实现。[符号解释](https://allcontributors.org/docs/en/emoji-key)
 > 
-> 此列表亦包含部分为编码提供帮助的工具相关的用户/组织。
+> 此列表亦包含部分为编码等方面提供帮助的工具相关的用户/组织。
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore-start -->
