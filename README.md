@@ -59,9 +59,10 @@
 <table>
   <tbody>
     <tr>
-      <td align="center" valign="top" width="14.28%"><a href="https://github.com/ShihaoShen2025"><img src="https://avatars.githubusercontent.com/u/213038537?v=4?s=100" width="100px;" alt="电教沈同学"/><br /><sub><b>Shihao Shen</b></sub></a><br /><a href="https://github.com/ShihaoShen2025/ICC-DN10/commits?author=ShihaoShen2025" title="Code">💻</a> <a href="#maintenance-ShihaoShen2025" title="Maintenance">🚧</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/ShihaoShen2025"><img src="https://avatars.githubusercontent.com/u/213038537?v=4?s=100" width="100px;" alt="Shihao Shen"/><br /><sub><b>Shihao Shen</b></sub></a><br /><a href="https://github.com/ShihaoShen2025/ICC-DN10/commits?author=ShihaoShen2025" title="Code">💻</a> <a href="#maintenance-ShihaoShen2025" title="Maintenance">🚧</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/Trae-AI"><img src="https://avatars.githubusercontent.com/u/192691831?v=4?s=100" width="100px;" alt="Trae-AI"/><br /><sub><b>Trae-AI</b></sub></a><br /><a href="https://github.com/ShihaoShen2025/ICC-DN10/commits?author=Trae-AI" title="Code">💻</a></td>
-      <td align="center" valign="top" width="14.28%"><a href="https://cursor.com/"><img src="https://avatars.githubusercontent.com/u/126759922?v=4?s=100" width="100px;" alt="Cursor"/><br /><sub><b>Cursor</b></sub></a><br /><a href="https://github.com/ShihaoShen2025/ICC-DN10/commits?author=cursor" title="Code">💻</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/cursor"><img src="https://avatars.githubusercontent.com/u/126759922?v=4?s=100" width="100px;" alt="Cursor"/><br /><sub><b>Cursor</b></sub></a><br /><a href="https://github.com/ShihaoShen2025/ICC-DN10/commits?author=cursor" title="Code">💻</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://allcontributors.org"><img src="https://avatars.githubusercontent.com/u/46410174?v=4?s=100" width="100px;" alt="All Contributors"/><br /><sub><b>All Contributors</b></sub></a><br /><a href="https://github.com/ShihaoShen2025/ICC-DN10/commits?author=all-contributors" title="Documentation">📖</a></td>
     </tr>
   </tbody>
 </table>
