@@ -209,7 +209,7 @@ namespace ICC_DN10
             SystemEvents_UserPreferenceChanged(null, null);
 
             //TextBlockVersion.Text = Assembly.GetExecutingAssembly().GetName().Version.ToString();
-            LogHelper.WriteLogToFile("ICC-Re Loaded", LogHelper.LogType.Event);
+            LogHelper.WriteLogToFile("ICC-DN10 Loaded", LogHelper.LogType.Event);
 
             isLoaded = true;
 
@@ -283,16 +283,16 @@ namespace ICC_DN10
 
         private void Window_Closing(object sender, System.ComponentModel.CancelEventArgs e)
         {
-            LogHelper.WriteLogToFile("ICC-Re closing", LogHelper.LogType.Event);
+            LogHelper.WriteLogToFile("ICC-DN10 closing", LogHelper.LogType.Event);
             if (!CloseIsFromButton && Settings.Advanced.IsSecondConfirmWhenShutdownApp)
             {
                 e.Cancel = true;
-                if (MessageBox.Show("是否继续关闭 ICC-Re，这将丢失当前未保存的墨迹。", "InkCanvasForClass-Remastered",
+                if (MessageBox.Show("是否继续关闭 ICC-DN10，这将丢失当前未保存的墨迹。", "InkCanvasForClass-Remastered",
                         MessageBoxButton.OKCancel, MessageBoxImage.Warning) == MessageBoxResult.OK)
                     e.Cancel = false;
             }
 
-            if (e.Cancel) LogHelper.WriteLogToFile("ICC-Re closing cancelled", LogHelper.LogType.Event);
+            if (e.Cancel) LogHelper.WriteLogToFile("ICC-DN10 closing cancelled", LogHelper.LogType.Event);
         }
 
         [DllImport("user32.dll", SetLastError = true)]
@@ -315,7 +315,7 @@ namespace ICC_DN10
         {
             SystemEvents.DisplaySettingsChanged -= SystemEventsOnDisplaySettingsChanged;
 
-            LogHelper.WriteLogToFile("ICC-Re closed", LogHelper.LogType.Event);
+            LogHelper.WriteLogToFile("ICC-DN10 closed", LogHelper.LogType.Event);
         }
 
         #endregion Definations and Loading
@@ -8096,12 +8096,12 @@ namespace ICC_DN10
 
                 if (Settings.Appearance.EnableViewboxBlackBoardScaleTransform) // 画板 UI 缩放 80%
                 {
-                    //ViewboxBlackboardLeftSideScaleTransform.ScaleX = 0.8;
-                    //ViewboxBlackboardLeftSideScaleTransform.ScaleY = 0.8;
+                    ViewboxBlackboardLeftSideScaleTransform.ScaleX = 0.8;
+                    ViewboxBlackboardLeftSideScaleTransform.ScaleY = 0.8;
                     ViewboxBlackboardCenterSideScaleTransform.ScaleX = 0.8;
                     ViewboxBlackboardCenterSideScaleTransform.ScaleY = 0.8;
-                    //ViewboxBlackboardRightSideScaleTransform.ScaleX = 0.8;
-                    //ViewboxBlackboardRightSideScaleTransform.ScaleY = 0.8;
+                    ViewboxBlackboardRightSideScaleTransform.ScaleX = 0.8;
+                    ViewboxBlackboardRightSideScaleTransform.ScaleY = 0.8;
 
                     ToggleSwitchEnableViewboxBlackBoardScaleTransform.IsOn = true;
                 }
@@ -8135,7 +8135,7 @@ namespace ICC_DN10
                 if (ComboBoxFloatingBarImg.SelectedIndex == 0)
                 {
                     FloatingbarHeadIconImg.Source =
-                        new BitmapImage(new Uri("pack://application:,,,/Resources/Icons-png/ICC-Re.png"));
+                        new BitmapImage(new Uri("pack://application:,,,/Resources/Icons-png/fluent-happyface.png"));
                     FloatingbarHeadIconImg.Margin = new Thickness(0.5);
                 }
                 else if (ComboBoxFloatingBarImg.SelectedIndex == 1)
