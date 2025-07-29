@@ -42,8 +42,10 @@
 
 感谢 [IC](https://github.com/WXRIW/Ink-Canvas/)、[ICA](https://github.com/InkCanvas/Ink-Canvas-Artistry)、[ICC](https://github.com/InkCanvas/InkCanvasForClass)、[ICC-Re](https://github.com/LiuYan-xwx/InkCanvasForClass-Remastered) 的贡献者们。
 
+<!--
 感谢 [Trae](https://www.trae.ai/) 为该项目提供 AI 编码支持。
-
+（为什么注释掉了呢？因为下面已经有了）
+-->
 
 
 # 贡献者
