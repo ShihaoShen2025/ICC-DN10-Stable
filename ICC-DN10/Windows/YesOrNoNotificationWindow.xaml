@@ -7,7 +7,7 @@
     xmlns:local="clr-namespace:ICC_DN10"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     xmlns:ui="http://schemas.inkore.net/lib/ui/wpf/modern"
-    Title="InkCanvasForClass-Remastered"
+    Title="InkCanvasForClass .NET 10 Edition"
     Width="450"
     Height="160"
     ui:ThemeManager.RequestedTheme="Light"

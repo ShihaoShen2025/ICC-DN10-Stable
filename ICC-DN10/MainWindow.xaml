@@ -621,6 +621,8 @@
                                             SelectionChanged="ComboBoxFloatingBarImg_SelectionChanged">
                                             <ComboBoxItem Content="Fluent 笑脸" FontFamily="Microsoft YaHei UI" />
                                             <ComboBoxItem Content="ICC 原版" FontFamily="Microsoft YaHei UI" />
+                                            <ComboBoxItem Content="ICC 黑色透明原版" FontFamily="Microsoft YaHei UI" />
+                                            <ComboBoxItem Content="ICC-DN10" FontFamily="Microsoft YaHei UI" />
                                         </ComboBox>
                                     </ikw:SimpleStackPanel>
                                     <ikw:SimpleStackPanel HorizontalAlignment="Left" Orientation="Horizontal">
@@ -753,7 +755,7 @@
                                             VerticalAlignment="Center"
                                             FontSize="14"
                                             Foreground="#fafafa"
-                                            Text="白板 UI 80% 缩放" />
+                                            Text="白板 UI 80% 缩放（有 ICC 祖传 Bug！）" />
                                         <ui:ToggleSwitch
                                             Name="ToggleSwitchEnableViewboxBlackBoardScaleTransform"
                                             FontFamily="Microsoft YaHei UI"
@@ -769,12 +771,11 @@
                                             VerticalAlignment="Center"
                                             FontSize="14"
                                             Foreground="#fafafa"
-                                            Text="在白板中显示当前时间和日期" />
+                                            Text="在白板中显示当前时间和日期（有 Bug）" />
                                         <ui:ToggleSwitch
                                             Name="ToggleSwitchEnableTimeDisplayInWhiteboardMode"
                                             FontFamily="Microsoft YaHei UI"
                                             FontWeight="Bold"
-                                            IsOn="True"
                                             OffContent=""
                                             OnContent=""
                                             Toggled="ToggleSwitchEnableTimeDisplayInWhiteboardMode_Toggled" />
@@ -798,7 +799,7 @@
                                         <ComboBox
                                             Name="ComboBoxUnFoldBtnImg"
                                             FontFamily="Microsoft YaHei UI"
-                                            SelectedIndex="0"
+                                            SelectedIndex="1"
                                             SelectionChanged="ComboBoxUnFoldBtnImg_SelectionChanged">
                                             <ComboBoxItem Content="箭头" FontFamily="Microsoft YaHei UI" />
                                             <ComboBoxItem Content="笔" FontFamily="Microsoft YaHei UI" />
@@ -1483,7 +1484,6 @@
                                             Name="ToggleSwitchAutoSaveScreenShotInPowerPoint"
                                             FontFamily="Microsoft YaHei UI"
                                             FontWeight="Bold"
-                                            IsOn="True"
                                             OffContent=""
                                             OnContent=""
                                             Toggled="ToggleSwitchAutoSaveScreenShotInPowerPoint_Toggled" />
@@ -1503,7 +1503,6 @@
                                             Name="ToggleSwitchAutoSaveStrokesInPowerPoint"
                                             FontFamily="Microsoft YaHei UI"
                                             FontWeight="Bold"
-                                            IsOn="True"
                                             OffContent=""
                                             OnContent=""
                                             Toggled="ToggleSwitchAutoSaveStrokesInPowerPoint_Toggled" />
@@ -1532,7 +1531,6 @@
                                             Name="ToggleSwitchNotifyPreviousPage"
                                             FontFamily="Microsoft YaHei UI"
                                             FontWeight="Bold"
-                                            IsOn="True"
                                             OffContent=""
                                             OnContent=""
                                             Toggled="ToggleSwitchNotifyPreviousPage_Toggled" />
@@ -1564,7 +1562,6 @@
                                             Name="ToggleSwitchNotifyAutoPlayPresentation"
                                             FontFamily="Microsoft YaHei UI"
                                             FontWeight="Bold"
-                                            IsOn="True"
                                             OffContent=""
                                             OnContent=""
                                             Toggled="ToggleSwitchNotifyAutoPlayPresentation_Toggled" />
@@ -1775,7 +1772,7 @@
                                             VerticalAlignment="Center"
                                             FontSize="14"
                                             Foreground="#fafafa"
-                                            Text="关闭软件时二次弹窗确认" />
+                                            Text="关闭软件时二次弹窗确认（有 ICC 祖传 Bug！）" />
                                         <ui:ToggleSwitch
                                             Name="ToggleSwitchIsSecondConfimeWhenShutdownApp"
                                             FontFamily="Microsoft YaHei UI"
@@ -2105,7 +2102,6 @@
                                                 HorizontalAlignment="Center"
                                                 FontFamily="Microsoft YaHei UI"
                                                 FontWeight="Bold"
-                                                IsOn="True"
                                                 OffContent=""
                                                 OnContent=""
                                                 Toggled="ToggleSwitchAutoFoldInEasiNote_Toggled" />
@@ -2133,7 +2129,6 @@
                                                 HorizontalAlignment="Center"
                                                 FontFamily="Microsoft YaHei UI"
                                                 FontWeight="Bold"
-                                                IsOn="True"
                                                 OffContent=""
                                                 OnContent=""
                                                 Toggled="ToggleSwitchAutoFoldInEasiCamera_Toggled" />
@@ -2161,7 +2156,6 @@
                                                 HorizontalAlignment="Center"
                                                 FontFamily="Microsoft YaHei UI"
                                                 FontWeight="Bold"
-                                                IsOn="True"
                                                 OffContent=""
                                                 OnContent=""
                                                 Toggled="ToggleSwitchAutoFoldInEasiNote3_Toggled" />
@@ -2189,7 +2183,6 @@
                                                 HorizontalAlignment="Center"
                                                 FontFamily="Microsoft YaHei UI"
                                                 FontWeight="Bold"
-                                                IsOn="True"
                                                 OffContent=""
                                                 OnContent=""
                                                 Toggled="ToggleSwitchAutoFoldInEasiNote3C_Toggled" />
@@ -2218,7 +2211,6 @@
                                                 HorizontalAlignment="Center"
                                                 FontFamily="Microsoft YaHei UI"
                                                 FontWeight="Bold"
-                                                IsOn="True"
                                                 OffContent=""
                                                 OnContent=""
                                                 Toggled="ToggleSwitchAutoFoldInEasiNote5C_Toggled" />
@@ -2247,7 +2239,6 @@
                                                 HorizontalAlignment="Center"
                                                 FontFamily="Microsoft YaHei UI"
                                                 FontWeight="Bold"
-                                                IsOn="True"
                                                 OffContent=""
                                                 OnContent=""
                                                 Toggled="ToggleSwitchAutoFoldInSeewoPincoTeacher_Toggled" />
@@ -2392,7 +2383,6 @@
                                                 HorizontalAlignment="Center"
                                                 FontFamily="Microsoft YaHei UI"
                                                 FontWeight="Bold"
-                                                IsOn="True"
                                                 OffContent=""
                                                 OnContent=""
                                                 Toggled="ToggleSwitchAutoFoldInMSWhiteboard_Toggled" />
@@ -2646,7 +2636,6 @@
                                             Name="ToggleSwitchAutoKillPptService"
                                             FontFamily="Microsoft YaHei UI"
                                             FontWeight="Bold"
-                                            IsOn="True"
                                             OffContent=""
                                             OnContent=""
                                             Toggled="ToggleSwitchAutoKillPptService_Toggled" />
@@ -2694,7 +2683,6 @@
                                             Name="ToggleSwitchAutoKillHiteAnnotation"
                                             FontFamily="Microsoft YaHei UI"
                                             FontWeight="Bold"
-                                            IsOn="True"
                                             OffContent=""
                                             OnContent=""
                                             Toggled="ToggleSwitchAutoKillHiteAnnotation_Toggled" />
@@ -2738,7 +2726,6 @@
                                             Name="ToggleSwitchAutoKillSeewoLauncher2DesktopAnnotation"
                                             FontFamily="Microsoft YaHei UI"
                                             FontWeight="Bold"
-                                            IsOn="True"
                                             OffContent=""
                                             OnContent=""
                                             Toggled="ToggleSwitchAutoKillSeewoLauncher2DesktopAnnotation_Toggled" />
@@ -2780,7 +2767,6 @@
                                             Name="ToggleSwitchAutoKillInkCanvas"
                                             FontFamily="Microsoft YaHei UI"
                                             FontWeight="Bold"
-                                            IsOn="True"
                                             OffContent=""
                                             OnContent=""
                                             Toggled="ToggleSwitchAutoKillInkCanvas_Toggled" />
@@ -2802,7 +2788,6 @@
                                             Name="ToggleSwitchAutoKillICA"
                                             FontFamily="Microsoft YaHei UI"
                                             FontWeight="Bold"
-                                            IsOn="True"
                                             OffContent=""
                                             OnContent=""
                                             Toggled="ToggleSwitchAutoKillICA_Toggled" />
@@ -2819,12 +2804,11 @@
                                             VerticalAlignment="Center"
                                             FontSize="14"
                                             Foreground="#fafafa"
-                                            Text="自动查杀“智绘教”" />
+                                            Text="自动查杀 智绘教Inkeys " />
                                         <ui:ToggleSwitch
                                             Name="ToggleSwitchAutoKillIDT"
                                             FontFamily="Microsoft YaHei UI"
                                             FontWeight="Bold"
-                                            IsOn="True"
                                             OffContent=""
                                             OnContent=""
                                             Toggled="ToggleSwitchAutoKillIDT_Toggled" />
@@ -2849,7 +2833,6 @@
                                             Name="ToggleSwitchAutoSaveStrokesAtClear"
                                             FontFamily="Microsoft YaHei UI"
                                             FontWeight="Bold"
-                                            IsOn="True"
                                             OffContent=""
                                             OnContent=""
                                             Toggled="ToggleSwitchAutoSaveStrokesAtClear_Toggled" />
@@ -2865,7 +2848,6 @@
                                             Name="ToggleSwitchSaveScreenshotsInDateFolders"
                                             FontFamily="Microsoft YaHei UI"
                                             FontWeight="Bold"
-                                            IsOn="True"
                                             OffContent=""
                                             OnContent=""
                                             Toggled="ToggleSwitchSaveScreenshotsInDateFolders_Toggled" />
@@ -2881,7 +2863,6 @@
                                             Name="ToggleSwitchAutoSaveStrokesAtScreenshot"
                                             FontFamily="Microsoft YaHei UI"
                                             FontWeight="Bold"
-                                            IsOn="True"
                                             OffContent=""
                                             OnContent=""
                                             Toggled="ToggleSwitchAutoSaveStrokesAtScreenshot_Toggled" />
@@ -2990,7 +2971,6 @@
                                             Name="ToggleSwitchAutoDelSavedFiles"
                                             FontFamily="Microsoft YaHei UI"
                                             FontWeight="Bold"
-                                            IsOn="True"
                                             OffContent=""
                                             OnContent=""
                                             Toggled="ToggleSwitchAutoDelSavedFiles_Toggled" />
@@ -3185,7 +3165,7 @@
                                                         Margin="0,0,0,-1"
                                                         FontWeight="Bold"
                                                         Foreground="#a1a1aa"
-                                                        Text="本软件和ICC, ICA，Ink Canvas均基于许可证开源"
+                                                        Text="本软件和ICC-Re, ICC, ICA, Ink Canvas均基于许可证开源"
                                                         TextWrapping="Wrap" />
                                                     <TextBlock
                                                         FontSize="20"
@@ -3221,7 +3201,7 @@
                                                 HorizontalAlignment="Center"
                                                 VerticalAlignment="Center"
                                                 RenderOptions.BitmapScalingMode="HighQuality"
-                                                Source="/Resources/DeveloperAvatars/LiuYan-xwx.jpg">
+                                                Source="/Resources/DeveloperAvatars/ShihaoShen.png">
                                                 <Image.Clip>
                                                     <EllipseGeometry
                                                         Center="32,32"
@@ -3235,7 +3215,7 @@
                                                 FontSize="18"
                                                 FontWeight="Bold"
                                                 Foreground="#fde047">
-                                                LiuYan-xwx
+                                                Shihao Shen
                                             </TextBlock>
                                         </ikw:SimpleStackPanel>
                                     </Grid>
@@ -3253,7 +3233,7 @@
                                         <Hyperlink Click="HyperlinkSourceToICCReRepository_Click">
                                             <TextBlock
                                                 Margin="2,0"
-                                                Text="LiuYan-xwx/InkCanvasForClass-Remastered"
+                                                Text="ShihaoShen2025/ICC-DN10"
                                                 TextWrapping="Wrap" />
                                         </Hyperlink>
                                     </TextBlock>
@@ -3271,7 +3251,7 @@
                                         FontSize="18"
                                         FontWeight="Bold"
                                         Text="感谢下列贡献者：" />
-                                    <TextBlock Text="..." />
+                                    <TextBlock Text="@ShihaoShen2025, @Trae-AI, @cursor, @all-contributors" />
                                 </ikw:SimpleStackPanel>
                             </GroupBox>
                         </StackPanel>

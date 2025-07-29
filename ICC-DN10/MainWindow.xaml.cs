@@ -287,7 +287,7 @@ namespace ICC_DN10
             if (!CloseIsFromButton && Settings.Advanced.IsSecondConfirmWhenShutdownApp)
             {
                 e.Cancel = true;
-                if (MessageBox.Show("是否继续关闭 ICC-DN10，这将丢失当前未保存的墨迹。", "InkCanvasForClass-Remastered",
+                if (MessageBox.Show("是否继续关闭 ICC-DN10，这将丢失当前未保存的墨迹。", "InkCanvasForClass .NET 10 Edition",
                         MessageBoxButton.OKCancel, MessageBoxImage.Warning) == MessageBoxResult.OK)
                     e.Cancel = false;
             }
@@ -5789,6 +5789,18 @@ namespace ICC_DN10
                     new BitmapImage(new Uri("pack://application:,,,/Resources/Icons-png/icc.png"));
                 FloatingbarHeadIconImg.Margin = new Thickness(0.5);
             }
+            else if (ComboBoxFloatingBarImg.SelectedIndex == 2)
+            {
+                FloatingbarHeadIconImg.Source =
+                    new BitmapImage(new Uri("pack://application:,,,/Resources/Icons-png/icc-transparent-dark-small.png"));
+                FloatingbarHeadIconImg.Margin = new Thickness(0.5);
+            }
+            else if (ComboBoxFloatingBarImg.SelectedIndex == 3)
+            {
+                FloatingbarHeadIconImg.Source =
+                    new BitmapImage(new Uri("pack://application:,,,/Resources/Icons-png/icc-dn10.png"));
+                FloatingbarHeadIconImg.Margin = new Thickness(0.5);
+            }
             App.SettingsService.SaveSettings();
         }
 
@@ -7241,7 +7253,7 @@ namespace ICC_DN10
 
         private void HyperlinkSourceToICCReRepository_Click(object sender, RoutedEventArgs e)
         {
-            Process.Start("https://github.com/LiuYan-xwx/InkCanvasForClass-Remastered");
+            Process.Start("https://github.com/ShihaoShen2025/ICC-DN10");
             HideSubPanels();
         }
         #endregion
@@ -8142,6 +8154,18 @@ namespace ICC_DN10
                 {
                     FloatingbarHeadIconImg.Source =
                         new BitmapImage(new Uri("pack://application:,,,/Resources/Icons-png/icc.png"));
+                    FloatingbarHeadIconImg.Margin = new Thickness(0.5);
+                }
+                else if (ComboBoxFloatingBarImg.SelectedIndex == 2)
+                {
+                    FloatingbarHeadIconImg.Source =
+                        new BitmapImage(new Uri("pack://application:,,,/Resources/Icons-png/icc-transparent-dark-small.png"));
+                    FloatingbarHeadIconImg.Margin = new Thickness(0.5);
+                }
+                else if (ComboBoxFloatingBarImg.SelectedIndex == 3)
+                {
+                    FloatingbarHeadIconImg.Source =
+                        new BitmapImage(new Uri("pack://application:,,,/Resources/Icons-png/icc-dn10.png"));
                     FloatingbarHeadIconImg.Margin = new Thickness(0.5);
                 }
 
@@ -10302,7 +10326,7 @@ namespace ICC_DN10
                                 opFlag = false;
                                 break;
                             case OptionalOperation.Ask:
-                                opFlag = MessageBox.Show("是否移除渐近线？", "InkCanvasForClass-Remastered", MessageBoxButton.YesNo) !=
+                                opFlag = MessageBox.Show("是否移除渐近线？", "InkCanvasForClass .NET 10 Edition", MessageBoxButton.YesNo) !=
                                          MessageBoxResult.Yes;
                                 break;
                         }
@@ -11005,8 +11029,8 @@ namespace ICC_DN10
 
                 if (Settings.Automation.IsAutoKillIDT)
                 {
-                    var processes = Process.GetProcessesByName("智绘教");
-                    if (processes.Length > 0) arg += " /IM \"智绘教.exe\"";
+                    var processes = Process.GetProcessesByName("Inkeys");
+                    if (processes.Length > 0) arg += " /IM \"Inkeys.exe\"";
                 }
 
                 if (Settings.Automation.IsAutoKillSeewoLauncher2DesktopAnnotation)
@@ -11045,7 +11069,7 @@ namespace ICC_DN10
 
                     if (arg.Contains("智绘教"))
                     {
-                        ShowNotification("“智绘教”已自动关闭");
+                        ShowNotification("“智绘教Inkeys”已自动关闭");
                     }
 
                     if (arg.Contains("VcomTeach"))
@@ -11055,7 +11079,7 @@ namespace ICC_DN10
 
                     if (arg.Contains("DesktopAnnotation"))
                     {
-                        ShowNotification("“DesktopAnnotation”已自动关闭");
+                        ShowNotification("“希沃桌面批注”已自动关闭");
                     }
                 }
             }

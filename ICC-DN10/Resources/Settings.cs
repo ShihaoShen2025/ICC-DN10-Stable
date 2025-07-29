@@ -39,7 +39,7 @@ namespace ICC_DN10
         [JsonProperty("eraserType")]
         public int EraserType { get; set; } = 0; // 0 - 图标切换模式      1 - 面积擦     2 - 线条擦
         [JsonProperty("eraserShapeType")]
-        public int EraserShapeType { get; set; } = 0; // 0 - 圆形擦  1 - 黑板擦
+        public int EraserShapeType { get; set; } = 1; // 0 - 圆形擦  1 - 黑板擦
         [JsonProperty("hideStrokeWhenSelecting")]
         public bool HideStrokeWhenSelecting { get; set; } = true;
         [JsonProperty("fitToCurve")]
@@ -105,11 +105,11 @@ namespace ICC_DN10
         // [JsonProperty("enableViewboxFloatingBarScaleTransform")]
         // public bool EnableViewboxFloatingBarScaleTransform { get; set; } = false;
         [JsonProperty("viewboxFloatingBarScaleTransformValue")]
-        public double ViewboxFloatingBarScaleTransformValue { get; set; } = 1.0;
+        public double ViewboxFloatingBarScaleTransformValue { get; set; } = 0.9;
         [JsonProperty("floatingBarImg")]
         public int FloatingBarImg { get; set; } = 0;
         [JsonProperty("viewboxFloatingBarOpacityValue")]
-        public double ViewboxFloatingBarOpacityValue { get; set; } = 1.0;
+        public double ViewboxFloatingBarOpacityValue { get; set; } = 0.95;
         [JsonProperty("enableTrayIcon")]
         public bool EnableTrayIcon { get; set; } = true;
         [JsonProperty("viewboxFloatingBarOpacityInPPTValue")]
@@ -123,11 +123,11 @@ namespace ICC_DN10
         [JsonProperty("isShowEraserButton")]
         public bool IsShowEraserButton { get; set; } = true;
         [JsonProperty("enableTimeDisplayInWhiteboardMode")]
-        public bool EnableTimeDisplayInWhiteboardMode { get; set; } = true;
+        public bool EnableTimeDisplayInWhiteboardMode { get; set; } = false;
         [JsonProperty("isShowHideControlButton")]
         public bool IsShowHideControlButton { get; set; } = false;
         [JsonProperty("unFoldButtonImageType")]
-        public int UnFoldButtonImageType { get; set; } = 0;
+        public int UnFoldButtonImageType { get; set; } = 1;
         [JsonProperty("isShowLRSwitchButton")]
         public bool IsShowLRSwitchButton { get; set; } = false;
         [JsonProperty("isShowModeFingerToggleSwitch")]
@@ -159,7 +159,7 @@ namespace ICC_DN10
         public int PPTSButtonsOption { get; set; } = 221;
 
         [JsonProperty("pptBButtonsOption")]
-        public int PPTBButtonsOption { get; set; } = 121;
+        public int PPTBButtonsOption { get; set; } = 221;
 
         [JsonProperty("enablePPTButtonPageClickable")]
         public bool EnablePPTButtonPageClickable { get; set; } = true;
@@ -179,7 +179,7 @@ namespace ICC_DN10
         [JsonProperty("isAutoSaveScreenShotInPowerPoint")]
         public bool IsAutoSaveScreenShotInPowerPoint { get; set; } = false;
         [JsonProperty("isNotifyPreviousPage")]
-        public bool IsNotifyPreviousPage { get; set; } = false;
+        public bool IsNotifyPreviousPage { get; set; } = true;
         [JsonProperty("isNotifyHiddenPage")]
         public bool IsNotifyHiddenPage { get; set; } = true;
         [JsonProperty("isNotifyAutoPlayPresentation")]
@@ -214,24 +214,24 @@ namespace ICC_DN10
             || IsAutoFoldInMaxHubWhiteboard;
 
         [JsonProperty("isAutoFoldInEasiNote")]
-        public bool IsAutoFoldInEasiNote { get; set; } = false;
+        public bool IsAutoFoldInEasiNote { get; set; } = true;
 
         [JsonProperty("isAutoFoldInEasiNoteIgnoreDesktopAnno")]
         public bool IsAutoFoldInEasiNoteIgnoreDesktopAnno { get; set; } = false;
 
         [JsonProperty("isAutoFoldInEasiCamera")]
-        public bool IsAutoFoldInEasiCamera { get; set; } = false;
+        public bool IsAutoFoldInEasiCamera { get; set; } = true;
 
         [JsonProperty("isAutoFoldInEasiNote3")]
-        public bool IsAutoFoldInEasiNote3 { get; set; } = false;
+        public bool IsAutoFoldInEasiNote3 { get; set; } = true;
         [JsonProperty("isAutoFoldInEasiNote3C")]
-        public bool IsAutoFoldInEasiNote3C { get; set; } = false;
+        public bool IsAutoFoldInEasiNote3C { get; set; } = true;
 
         [JsonProperty("isAutoFoldInEasiNote5C")]
-        public bool IsAutoFoldInEasiNote5C { get; set; } = false;
+        public bool IsAutoFoldInEasiNote5C { get; set; } = true;
 
         [JsonProperty("isAutoFoldInSeewoPincoTeacher")]
-        public bool IsAutoFoldInSeewoPincoTeacher { get; set; } = false;
+        public bool IsAutoFoldInSeewoPincoTeacher { get; set; } = true;
 
         [JsonProperty("isAutoFoldInHiteTouchPro")]
         public bool IsAutoFoldInHiteTouchPro { get; set; } = false;
@@ -251,7 +251,7 @@ namespace ICC_DN10
         public bool IsAutoFoldInOldZyBoard { get; set; } = false;
 
         [JsonProperty("isAutoFoldInMSWhiteboard")]
-        public bool IsAutoFoldInMSWhiteboard { get; set; } = false;
+        public bool IsAutoFoldInMSWhiteboard { get; set; } = true;
 
         [JsonProperty("isAutoFoldInAdmoxWhiteboard")]
         public bool IsAutoFoldInAdmoxWhiteboard { get; set; } = false;
@@ -272,37 +272,37 @@ namespace ICC_DN10
         public bool IsAutoFoldInPPTSlideShow { get; set; } = false;
 
         [JsonProperty("isAutoKillPptService")]
-        public bool IsAutoKillPptService { get; set; } = false;
+        public bool IsAutoKillPptService { get; set; } = true;
 
         [JsonProperty("isAutoKillEasiNote")]
         public bool IsAutoKillEasiNote { get; set; } = false;
 
         [JsonProperty("isAutoKillHiteAnnotation")]
-        public bool IsAutoKillHiteAnnotation { get; set; } = false;
+        public bool IsAutoKillHiteAnnotation { get; set; } = true;
 
         [JsonProperty("isAutoKillVComYouJiao")]
         public bool IsAutoKillVComYouJiao { get; set; } = false;
 
         [JsonProperty("isAutoKillSeewoLauncher2DesktopAnnotation")]
-        public bool IsAutoKillSeewoLauncher2DesktopAnnotation { get; set; } = false;
+        public bool IsAutoKillSeewoLauncher2DesktopAnnotation { get; set; } = true;
 
         [JsonProperty("isAutoKillInkCanvas")]
-        public bool IsAutoKillInkCanvas { get; set; } = false;
+        public bool IsAutoKillInkCanvas { get; set; } = true;
 
         [JsonProperty("isAutoKillICA")]
-        public bool IsAutoKillICA { get; set; } = false;
+        public bool IsAutoKillICA { get; set; } = true;
 
         [JsonProperty("isAutoKillIDT")]
         public bool IsAutoKillIDT { get; set; } = true;
 
         [JsonProperty("isSaveScreenshotsInDateFolders")]
-        public bool IsSaveScreenshotsInDateFolders { get; set; } = false;
+        public bool IsSaveScreenshotsInDateFolders { get; set; } = true;
 
         [JsonProperty("isAutoSaveStrokesAtScreenshot")]
-        public bool IsAutoSaveStrokesAtScreenshot { get; set; } = false;
+        public bool IsAutoSaveStrokesAtScreenshot { get; set; } = true;
 
         [JsonProperty("isAutoSaveStrokesAtClear")]
-        public bool IsAutoSaveStrokesAtClear { get; set; } = false;
+        public bool IsAutoSaveStrokesAtClear { get; set; } = true;
 
         [JsonProperty("isAutoClearWhenExitingWritingMode")]
         public bool IsAutoClearWhenExitingWritingMode { get; set; } = false;
@@ -311,10 +311,10 @@ namespace ICC_DN10
         public int MinimumAutomationStrokeNumber { get; set; } = 0;
 
         [JsonProperty("autoSavedStrokesLocation")]
-        public string AutoSavedStrokesLocation = @"D:\ICC-Re";
+        public string AutoSavedStrokesLocation = @"D:\ICC-DN10";
 
         [JsonProperty("autoDelSavedFiles")]
-        public bool AutoDelSavedFiles = false;
+        public bool AutoDelSavedFiles = true;
 
         [JsonProperty("autoDelSavedFilesDaysThreshold")]
         public int AutoDelSavedFilesDaysThreshold = 15;
