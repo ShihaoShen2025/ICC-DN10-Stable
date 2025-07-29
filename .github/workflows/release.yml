@@ -20,10 +20,10 @@ jobs:
         dotnet-version: 10.0.x
 
     - name: 生成二进制文件
-      run: dotnet publish -c Release -f net10.0-windows10.0.19041.0 -r win-x64 --self-contained false -o publish
+      run: dotnet publish -c Release -f net10.0-windows10.0.19041.0 -r win-x64 --self-contained false -o Release
 
     - name: 上传二进制文件
       uses: actions/upload-artifact@v4
       with:
-        name: ICC-DN10-Release
-        path: publish
+        name: Release
+        path: Release

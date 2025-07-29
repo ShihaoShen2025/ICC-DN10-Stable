@@ -5780,7 +5780,7 @@ namespace ICC_DN10
             if (ComboBoxFloatingBarImg.SelectedIndex == 0)
             {
                 FloatingbarHeadIconImg.Source =
-                    new BitmapImage(new Uri("pack://application:,,,/Resources/Icons-png/ICC-Re.png"));
+                    new BitmapImage(new Uri("pack://application:,,,/Resources/Icons-png/fluent-happyface.png"));
                 FloatingbarHeadIconImg.Margin = new Thickness(0.5);
             }
             else if (ComboBoxFloatingBarImg.SelectedIndex == 1)

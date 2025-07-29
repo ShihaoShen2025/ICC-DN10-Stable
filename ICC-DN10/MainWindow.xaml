@@ -619,8 +619,8 @@
                                             FontFamily="Microsoft YaHei UI"
                                             SelectedIndex="0"
                                             SelectionChanged="ComboBoxFloatingBarImg_SelectionChanged">
-                                            <ComboBoxItem Content="ICC-Re" FontFamily="Microsoft YaHei UI" />
-                                            <ComboBoxItem Content="怀旧版蓝色 ICC" FontFamily="Microsoft YaHei UI" />
+                                            <ComboBoxItem Content="Fluent 笑脸" FontFamily="Microsoft YaHei UI" />
+                                            <ComboBoxItem Content="ICC 原版" FontFamily="Microsoft YaHei UI" />
                                         </ComboBox>
                                     </ikw:SimpleStackPanel>
                                     <ikw:SimpleStackPanel HorizontalAlignment="Left" Orientation="Horizontal">
