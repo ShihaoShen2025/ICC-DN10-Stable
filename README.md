@@ -24,16 +24,18 @@
 ## 下载
 现阶段请前往 [Actions](https://github.com/ShihaoShen2025/ICC-DN10/actions) 下载。
 
-对于不使用“最新构建”构建（`main.yml`）的用户，请预先安装 [.NET 10 桌面运行时](https://dotnet.microsoft.com/zh-cn/download/dotnet/10.0)。
+对于不使用“Self-Contained”版本（`ICC-DN10.zip`）的用户，请预先安装 [.NET 10 桌面运行时](https://dotnet.microsoft.com/zh-cn/download/dotnet/10.0)。
 
-注：“[最新构建（`main.yml`）](https://github.com/ShihaoShen2025/ICC-DN10/actions/workflows/main.yml)”为自带 .NET 桌面运行时的发行版，“[发行版（`release.yml`）](https://github.com/ShihaoShen2025/ICC-DN10/actions/workflows/release.yml)”为发行版，“[调试版本（`debug.yml`）](https://github.com/ShihaoShen2025/ICC-DN10/actions/workflows/debug.yml)”为调试版本。
+注：“ICC-DN10”为自带 .NET 桌面运行时的发行版，强烈推荐使用；“Release”为发行版，“Debug”为调试版本。
 
+<!--
 [![发行版](https://github.com/ShihaoShen2025/ICC-DN10/actions/workflows/release.yml/badge.svg)](https://github.com/ShihaoShen2025/ICC-DN10/actions/workflows/release.yml)
 [![调试版本](https://github.com/ShihaoShen2025/ICC-DN10/actions/workflows/debug.yml/badge.svg)](https://github.com/ShihaoShen2025/ICC-DN10/actions/workflows/debug.yml)
+-->
 <!--非常好Actions，使我的发行版旋转-->
 
 ## 致谢
 
 感谢 [IC](https://github.com/WXRIW/Ink-Canvas/)、[ICA](https://github.com/InkCanvas/Ink-Canvas-Artistry)、[ICC](https://github.com/InkCanvas/InkCanvasForClass)、[ICC-Re](https://github.com/LiuYan-xwx/InkCanvasForClass-Remastered) 的贡献者们。
 
-感谢 [Trae AI](https://www.trae.ai/) 为该项目提供 AI 编码支持。
+感谢 [Trae](https://www.trae.ai/) 为该项目提供 AI 编码支持。
