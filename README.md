@@ -1,6 +1,8 @@
 <div align=center>
+![ICC-DN10](C:\Users\ssh\Documents\GitHub\ICC-DN10\ICC-DN10.png)
 
   # InkCanvasForClass<br>.NET <!--“。网”。跟我一起读：“句号，网”[doge] --> 10 Edition
+
   InkCanvasForClass，但是 .NET 10
 
 [![最新构建](https://github.com/ShihaoShen2025/ICC-DN10/actions/workflows/main.yml/badge.svg)](https://github.com/ShihaoShen2025/ICC-DN10/actions/workflows/main.yml)
@@ -39,3 +41,24 @@
 感谢 [IC](https://github.com/WXRIW/Ink-Canvas/)、[ICA](https://github.com/InkCanvas/Ink-Canvas-Artistry)、[ICC](https://github.com/InkCanvas/InkCanvasForClass)、[ICC-Re](https://github.com/LiuYan-xwx/InkCanvasForClass-Remastered) 的贡献者们。
 
 感谢 [Trae](https://www.trae.ai/) 为该项目提供 AI 编码支持。
+
+
+
+# 贡献者
+
+> [!NOTE]
+>
+> 此列表通过 [All Contributors](https://allcontributors.org/)实现。
+>
+> 此列表亦包含部分为编码提供帮助的工具相关的用户/组织。
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+
+
+
+<!-- markdownlint-restore -->
+<!-- prettier-ignore-end -->
+
+<!-- ALL-CONTRIBUTORS-LIST:END -->
