@@ -26,7 +26,7 @@
 - ~~没了~~
 
 ## 下载
-现阶段请前往 [Actions](https://github.com/ShihaoShen2025/ICC-DN10/actions) 下载。
+请前往 [Releases](https://github.com/ShihaoShen2025/ICC-DN10/releases) 获取最新的已测试版本，或前往 [Actions](https://github.com/ShihaoShen2025/ICC-DN10/actions) 下载最新构建。
 
 对于不使用“Self-Contained”版本（`ICC-DN10.zip`）的用户，请预先安装 [.NET 10 桌面运行时](https://dotnet.microsoft.com/zh-cn/download/dotnet/10.0)。
 
