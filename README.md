@@ -1,5 +1,6 @@
 <div align=center>
-![ICC-DN10](C:\Users\ssh\Documents\GitHub\ICC-DN10\ICC-DN10.png)
+  
+  ![ICC-DN10](ICC-DN10.png)
 
   # InkCanvasForClass<br>.NET <!--“。网”。跟我一起读：“句号，网”[doge] --> 10 Edition
 
