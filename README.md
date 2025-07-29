@@ -1,7 +1,4 @@
 <div align=center>
-<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
-<!-- ALL-CONTRIBUTORS-BADGE:END -->
   
   ![ICC-DN10](ICC-DN10.png)
 
@@ -52,8 +49,8 @@
 
 > [!NOTE]
 >
-> 此列表通过 [All Contributors](https://allcontributors.org/)实现。
->
+> 此列表通过 [All Contributors](https://allcontributors.org/)实现。[符号解释](https://allcontributors.org/docs/en/emoji-key)
+> 
 > 此列表亦包含部分为编码提供帮助的工具相关的用户/组织。
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
@@ -62,7 +59,9 @@
 <table>
   <tbody>
     <tr>
-      <td align="center" valign="top" width="14.28%"><a href="https://github.com/ShihaoShen2025"><img src="https://avatars.githubusercontent.com/u/213038537?v=4?s=100" width="100px;" alt="电教沈同学"/><br /><sub><b>电教沈同学</b></sub></a><br /><a href="https://github.com/ShihaoShen2025/ICC-DN10/commits?author=ShihaoShen2025" title="Code">💻</a> <a href="#maintenance-ShihaoShen2025" title="Maintenance">🚧</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/ShihaoShen2025"><img src="https://avatars.githubusercontent.com/u/213038537?v=4?s=100" width="100px;" alt="电教沈同学"/><br /><sub><b>Shihao Shen</b></sub></a><br /><a href="https://github.com/ShihaoShen2025/ICC-DN10/commits?author=ShihaoShen2025" title="Code">💻</a> <a href="#maintenance-ShihaoShen2025" title="Maintenance">🚧</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/Trae-AI"><img src="https://avatars.githubusercontent.com/u/192691831?v=4?s=100" width="100px;" alt="Trae-AI"/><br /><sub><b>Trae-AI</b></sub></a><br /><a href="https://github.com/ShihaoShen2025/ICC-DN10/commits?author=Trae-AI" title="Code">💻</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://cursor.com/"><img src="https://avatars.githubusercontent.com/u/126759922?v=4?s=100" width="100px;" alt="Cursor"/><br /><sub><b>Cursor</b></sub></a><br /><a href="https://github.com/ShihaoShen2025/ICC-DN10/commits?author=cursor" title="Code">💻</a></td>
     </tr>
   </tbody>
 </table>
@@ -71,16 +70,3 @@
 <!-- prettier-ignore-end -->
 
 <!-- ALL-CONTRIBUTORS-LIST:END -->
-
-## Contributors ✨
-
-Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
-
-<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
-<!-- prettier-ignore-start -->
-<!-- markdownlint-disable -->
-<!-- markdownlint-restore -->
-<!-- prettier-ignore-end -->
-<!-- ALL-CONTRIBUTORS-LIST:END -->
-
-This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
