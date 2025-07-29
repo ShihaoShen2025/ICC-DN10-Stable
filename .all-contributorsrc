@@ -1,0 +1,27 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "commitType": "docs",
+  "commitConvention": "angular",
+  "contributors": [
+    {
+      "login": "ShihaoShen2025",
+      "name": "电教沈同学",
+      "avatar_url": "https://avatars.githubusercontent.com/u/213038537?v=4",
+      "profile": "https://github.com/ShihaoShen2025",
+      "contributions": [
+        "code",
+        "maintenance"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "skipCi": true,
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "projectName": "ICC-DN10",
+  "projectOwner": "ShihaoShen2025"
+}
