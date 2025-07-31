@@ -4,10 +4,10 @@
 
   # InkCanvasForClass<br>.NET <!--“。网”。跟我一起读：“句号，网”[doge] --> 10 Edition
 
-  Ink Canvas for Class，但是 .NET 10
+  Ink Canvas for Class，但是 .NET 10<br>（0610 稳定版）
 
 [![前往最新构建](https://github.com/ShihaoShen2025/ICC-DN10-Stable/actions/workflows/main.yml/badge.svg)](https://github.com/ShihaoShen2025/ICC-DN10-Stable/actions/workflows/main.yml)
-[![贡献者数量](https://img.shields.io/github/all-contributors/ShihaoShen2025/ICC-DN10?color=orange)](#贡献者)
+[![贡献者数量](https://img.shields.io/github/all-contributors/ShihaoShen2025/ICC-DN10-Stable?color=orange)](#贡献者)
 
   基于`InkCanvas`控件的又<!--yòu-->双<!--shuāng-->叒<!--ruò-->叕<!--zhuó-->一次倔强
 </div>
