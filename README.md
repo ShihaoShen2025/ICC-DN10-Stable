@@ -1,3 +1,8 @@
+# 项目停止维护
+我将不再维护此项目，转而维护 [ICC-Re](https://github.com/LiuYan-xwx/InkCanvasForClass-Remastered)。
+
+除非我认为该项目有重启的价值。
+
 <div align=center>
 
   ![ICC-DN10](ICC-DN10.png)
