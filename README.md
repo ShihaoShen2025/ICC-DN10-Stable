@@ -3,6 +3,8 @@
 
 除非我认为该项目有重启的价值。
 
+## 以下是 ReadMe 原文
+
 <div align=center>
 
   ![ICC-DN10](ICC-DN10.png)
